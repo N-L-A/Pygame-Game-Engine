@@ -171,7 +171,7 @@ class TileMap (object):
 
     def set_tile(self, data, x, y=None):
         """set the value of a tile"""
-        if y:
+        if y is not None:
             self.map[y][x] = data
         else:
             self.map[x[1]][x[0]] = data
