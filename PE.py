@@ -17,7 +17,7 @@ from PE_tools import particles
 # from PE_tools import character
 
 
-PE_version = "ALPHA-1.9.6_(particles&tick-label&scroll&edge-finder&autoFGif_updt)"
+PE_version = "ALPHA-1.9.7_(particles&tick-label&scroll&edge-finder&autoFGif_updt)"
 clock = pygame.time.Clock()
 fps = 0
 max_fps = 30
